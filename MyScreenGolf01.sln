@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyScreenGolf01.CSharp.Plugins", "MyScreenGolf01.CSharp.Plugins.csproj", "{C05568C7-794A-E846-F5F4-1C7E782B2116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyScreenGolf01.CSharp", "MyScreenGolf01.CSharp.csproj", "{A63EE065-DF5D-D945-8CCE-3219D0B95B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyScreenGolf01.CSharp.Editor", "MyScreenGolf01.CSharp.Editor.csproj", "{D96EBCC3-55F8-CEC9-1371-D1B3E73FB212}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C05568C7-794A-E846-F5F4-1C7E782B2116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05568C7-794A-E846-F5F4-1C7E782B2116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05568C7-794A-E846-F5F4-1C7E782B2116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05568C7-794A-E846-F5F4-1C7E782B2116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63EE065-DF5D-D945-8CCE-3219D0B95B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63EE065-DF5D-D945-8CCE-3219D0B95B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63EE065-DF5D-D945-8CCE-3219D0B95B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63EE065-DF5D-D945-8CCE-3219D0B95B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D96EBCC3-55F8-CEC9-1371-D1B3E73FB212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96EBCC3-55F8-CEC9-1371-D1B3E73FB212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96EBCC3-55F8-CEC9-1371-D1B3E73FB212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96EBCC3-55F8-CEC9-1371-D1B3E73FB212}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

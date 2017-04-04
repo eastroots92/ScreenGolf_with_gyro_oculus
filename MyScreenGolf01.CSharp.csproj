@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A63EE065-DF5D-D945-8CCE-3219D0B95B42}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.2.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_2_2;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_2_2;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MyScreenGolf01.CSharp.Plugins.csproj">
+      <Project>{C05568C7-794A-E846-F5F4-1C7E782B2116}</Project>
+      <Name>MyScreenGolf01.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
+    <Compile Include="Assets\DotweenFiles\TweenControl.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\EffectScriptSample.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NcDetachObject.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NcDisableDelayActive.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NcDontActive.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NcEffectAniBehaviour.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NcEffectBehaviour.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NcEffectInitBackup.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NcRandomTimerTool.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NcRepeatTimerTool.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NcTimerTool.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NcTransformTool.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NgInterpolate.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NgMath.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NsEffectManager.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NsRenderManager.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\Common\NsSharedManager.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcAddForce.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcAttachPrefab.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcAttachSound.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcAutoDeactive.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcAutoDestruct.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcBillboard.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcChangeAlpha.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcCurveAnimation.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcDelayActive.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcDetachParent.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcDuplicator.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcParticleEmit.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcParticleSpiral.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcParticleSystem.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcRotation.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcSpriteAnimation.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcSpriteFactory.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcSpriteTexture.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcTilingTexture.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcTrailTexture.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources1\Scripts\NcEffect\NcUvAnimation.cs" />
+    <Compile Include="Assets\Script\BallShoot\EffectManager.cs" />
+    <Compile Include="Assets\Script\BallShoot\FollowCamera.cs" />
+    <Compile Include="Assets\Script\BallShoot\GameInfo.cs" />
+    <Compile Include="Assets\Script\BallShoot\GamePlayUICOntroller.cs" />
+    <Compile Include="Assets\Script\BallShoot\HitWall.cs" />
+    <Compile Include="Assets\Script\BallShoot\LineCreater.cs" />
+    <Compile Include="Assets\Script\BallShoot\MainMenuUIController.cs" />
+    <Compile Include="Assets\Script\BallShoot\PuttingGuideLine.cs" />
+    <Compile Include="Assets\Script\BallShoot\PuttingGuideLine5.cs" />
+    <Compile Include="Assets\Script\BallShoot\SoundManager.cs" />
+    <Compile Include="Assets\Script\BallShoot\SwingLineCreater.cs" />
+    <Compile Include="Assets\Script\BallShoot\addporce.cs" />
+    <Compile Include="Assets\Script\BallShoot\ballshoot.cs" />
+    <Compile Include="Assets\Script\Button.cs" />
+    <Compile Include="Assets\Script\EbmDataParser.cs" />
+    <Compile Include="Assets\Script\PartsRotation.cs" />
+    <Compile Include="Assets\Script\UIScript.cs" />
+    <Compile Include="Assets\Standard Assets 1\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\Standard Assets 1\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Standard Assets 1\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\Standard Assets 1\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\Standard Assets 1\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\Standard Assets 1\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\Standard Assets 1\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\Standard Assets 1\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\Standard Assets 1\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\Standard Assets 1\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\Standard Assets 1\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Standard Assets 1\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+    <Compile Include="Assets\Standard Assets 1\Environment\Water\Water\Scripts\Displace.cs" />
+    <Compile Include="Assets\Standard Assets 1\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\Standard Assets 1\Environment\Water\Water\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\Standard Assets 1\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\Standard Assets 1\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\Standard Assets 1\Environment\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\Standard Assets 1\Environment\Water\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\Standard Assets 1\Environment\Water\Water\Scripts\WaterTile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Standard Assets 1\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets 1\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets 1\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets 1\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets 1\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets 1\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

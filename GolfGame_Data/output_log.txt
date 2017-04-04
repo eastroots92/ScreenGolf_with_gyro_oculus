@@ -1,0 +1,45 @@
+Initialize engine version: 5.2.2f1 (3757309da7e7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 740M (ID=0x1292)
+    Vendor:   NVIDIA
+    VRAM:     1996 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\DOTween.dll (this message is harmless)
+Loading C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.056 seconds
+desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Administrator\Desktop\MyScreenGolf01 (3)\GolfGame_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 27c -> priority: 1 
+  Thread -> id: 1dec -> priority: 1 
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1649)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.315375 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 872.
+Total: 0.578033 ms (FindLiveObjects: 0.032190 ms CreateObjectMapping: 0.027058 ms MarkObjects: 0.378824 ms  DeleteObjects: 0.139959 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EbmDataParser.OnApplicationQuit () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
